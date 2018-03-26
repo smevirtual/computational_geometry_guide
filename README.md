@@ -1,5 +1,25 @@
 ## Computational Geometry in Python
 
+### Anaconda
+
+[Anaconda](https://www.anaconda.com/download/) is a distribution of Python which comes pre-packaged with several common tools and applications for engineers working with large-scale data processing, scientific computing and machine learning.
+
+For many of the SME Virtual Network webinars, workshops and walkthroughs, we recommend using Anaconda.
+
+### Instructions
+
+#### Using Anaconda Python
+
+An Anaconda `environment.yml` file is included at the root of this repository. This can be used to create a suitable environment for running the code in this repository.
+
+1. Open up the Terminal on macOS/Linux, the Command Prompt on Windows or an Anaconda Prompt.
+2. Run `conda env create -f environment.yml`.
+3. Activate the new environment by running `activate comp_geometry` on Windows or `source activate comp_geometry` on macOS/Linux.
+
+#### Using Docker
+
+TODO
+
 ### About the SME
 
 The SME is an international organization which seeks to develop engineering and manufacturing talent, promote advanced manufacturing
