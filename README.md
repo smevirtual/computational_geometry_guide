@@ -1,29 +1,42 @@
-[![Build Status](https://travis-ci.org/tylerjereddy/pycon-2016.svg?branch=master)](https://travis-ci.org/tylerjereddy/pycon-2016)
+## Computational Geometry in Python
 
-[![Build history](https://buildstats.info/travisci/chart/tylerjereddy/pycon-2016)](https://travis-ci.org/tylerjereddy/pycon-2016/builds)
-# pycon-2016
-PyCon 2016 Computational Geometry Tutorial
+### About the SME
 
-This tutorial is available as a github repository that you may clone and run locally / interactively on your machine with the prerequisite [Jupyter / IPython kernel](http://jupyter.readthedocs.io/en/latest/install.html) installed. I have used `Python 2.7.11` in this tutorial and have not tested with `Python 3.x`. I encourage you to `git clone` and run `ipython notebook`, and execute all the cells in the `computational_geometry_tutorial.ipynb` *before* the tutorial as it will help us get through more material if we can minimize technical issues (please do feel free to contact me ahead of the tutorial for assistance with the installation, etc.).
+The SME is an international organization which seeks to develop engineering and manufacturing talent, promote advanced manufacturing
+technology and, ultimately, build a more prosperous tomorrow for the manufacturing community.
 
-It may be a good idea to use something like [`conda`](http://conda.pydata.org/docs/intro.html) to manage your python libraries if you have difficulties with installation. Here is a summary of the python libraries (beyond the standard library) and versions imported in the notebook at present, along with some notes:
+Learn more about the SME [here](http://www.sme.org/).
 
-library name | version used | notes
--------------|--------------|------
-`circumcircle` | N/A | a small library included in the git repo
-`triangle` | `20160203` | [PyPI page](https://pypi.python.org/pypi/triangle/)
-`numpy` | `1.11.0` | http://www.numpy.org
-`scipy` | `0.18.0.dev0+339c771` | https://www.scipy.org ; I built from master branch for use of `scipy.spatial.SphericalVoronoi` -- can use an older version if you don't mind skipping that example in tutorial
-`matplotlib` | `1.5.1` | http://matplotlib.org
-`ipywidgets` | `4.1.1` | https://github.com/ipython/ipywidgets
-`pyshp` | `1.2.3` | [PyPI page](https://pypi.python.org/pypi/pyshp) ; use `import shapefile`
+### About the SME Virtual Network
 
-## Options for Following Along
-1. Install the above dependencies manually / with a package manager and run the `ipython notebook` on your machine so that you may execute all the cells as I go through them (please check that this works in advance if possible).
-2. Similar to #1 except that you simply use the `Jupyter` notebook to follow along statically (without executing any cells). This is not ideal, but if you really can't get the prerequisite libraries installed, you could at least have a copy of the static notebook on your screen.
-3. You could follow along using the automatically-rendered html version of the notebook on the github page. This has the advantage that you don't need to install anything other than a modern web browser, but the drawback of depending on an internet connection (and again, only providing static content).
-4. I've made a [docker](https://www.docker.com) image that you may be able to use. Note that, at present, the javascript widgets won't work, but you should otherwise be able to follow along, execute the code interactively, and even save your work if needed (i.e., using [`docker cp`](http://stackoverflow.com/questions/22907231/copying-files-from-host-to-docker-container) or mounting a local path). Here are the basic steps after installing docker (but you should definitely test this yourself before the tutorial, especially for mac and windows):
-  1. `docker pull tylerreddy/pycon-2016`  
-  2. `docker run -d -p 8888:8888 tylerreddy/pycon-2016`
-  3. open `http://localhost:8888` in browser
-  4. click on `computational_geometry_tutorial.ipynb` and follow along
+The SME Virtual Network is a volunteer-led online community for SME members, non-members, emerging professionals and students. It was created to engage remote areas that do not have the support of a local SME chapter; busy community members who may not have the time to participate in face-to-face events; and manufacturing professionals who do shift work.
+
+In short, it’s designed to enhance the traditional SME chapter experience. We strive to provide value-added virtual events and engagement opportunities for the manufacturing and engineering community. Post-event discussions will take place SME Connect and an instant messaging platform called Slack.
+
+Learn more about the SME Virtual Network by visiting the following links:
+
+* [SME Virtual Network on YouTube](https://www.youtube.com/channel/UC7DNeDhrD2a5Ptyo9Rm_mwQ)
+* [SME Virtual Network on Facebook](https://www.facebook.com/smevirtual/)
+* [SME Virtual Network on LinkedIn](https://www.linkedin.com/company/smevirtual)
+
+### Contributing
+
+We accept issues and pull requests!
+
+### Feedback
+
+Please open a new <a href="https://github.com/smevirtual/computational_geometry_python/issues">issue</a>.
+
+### Code of Conduct
+
+The SME Virtual Network is committed to providing a friendly, safe and welcoming environment for all. Please take a moment to read our <a href="https://github.com/smevirtual/code_of_conduct/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a>.
+
+### Attributions
+
+This codebase was originally forked from Tyler Reddy's PyCon 2016 presentation [repository](https://github.com/tylerjereddy/pycon-2016). However, in time, there will be substaintial changes to the original codebase - to update it for Python 3 and to refocus it for engineering and manufacturing applications. If you wish to watch Tyler's presentation at PyCon 2016, it is [here](https://www.youtube.com/watch?v=nb3GRgtjlTw).
+
+### Licenses
+
+All of the code in this repository is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+All of the slides (and other written content) is licensed under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode).
